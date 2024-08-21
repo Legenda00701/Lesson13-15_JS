@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Lesson13-15_JS.js"></script>
+    <title>JS</title>
+</head>
+<body>
+    <script>
+        // 1
+        let celsia1 = 20;
+        let fahrenheit1 = (celsia1 * 9/5) + 32;
+        let kelvin1 = celsia1 + 273.15;
+        console.log("Температура в градусах Фаренгейта: " + fahrenheit1);
+        console.log("Температура в градусах Кельвина: " + kelvin1);
+
+        let celsia2 = 24;
+        let fahrenheit2 = (celsia2 * 9/5) + 32;
+        let kelvin2 = celsia2 + 273.15;
+        console.log("Температура в градусах Фаренгейта: " + fahrenheit2);
+        console.log("Температура в градусах Кельвина: " + kelvin2);
+
+        // 2
+        let deposit = 1000;
+        let rate = 0.05;
+        let year1 = deposit * (1 + rate);
+        let year2 = year1 * (1 + rate);
+        let year3 = year2 * (1 + rate);
+
+        console.log("Сумма вклада через год: " + year1);
+        console.log("Сумма вклада через два года: " + year2);
+        console.log("Сумма вклада через три года: " + year3);
+    </script>
+</body>
+</html>
